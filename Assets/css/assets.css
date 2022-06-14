@@ -15,6 +15,7 @@ body {
 header {
     text-align: center;
     font-size: 64px;
+    border-bottom: 4px solid var(--text);
 }
 
 header span {
@@ -42,9 +43,15 @@ nav a {
     
 }
 
-#box {
-    width: 100%;
+div h2 {
+    font-size: 40px;
+    margin: 20px;
+    border-bottom: 4px solid var(--text);
 }
- 
 
-
+footer {
+   text-align: center;
+   position: fixed;
+   bottom: 0;
+   left: 45%
+}
