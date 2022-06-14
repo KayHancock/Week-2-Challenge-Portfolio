@@ -49,6 +49,23 @@ div h2 {
     border-bottom: 4px solid var(--text);
 }
 
+.port {
+    max-width: 40%;
+    max-height: auto;
+}
+
+.port:hover {
+    max-width: 60%;
+}
+
+#right {
+    justify-content: flex-end;
+}
+
+#left {
+    justify-content: flex-start;
+}
+
 footer {
    text-align: center;
    position: fixed;
