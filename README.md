@@ -23,4 +23,4 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ## Usage
 My portfolio can be accessed at this link: https://kayhancock.github.io/Week-2-Challenge-Portfolio/
 
-The site should look like this:
+The site should look like this: Assets\images\preview.png
