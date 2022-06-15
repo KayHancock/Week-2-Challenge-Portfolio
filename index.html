@@ -15,32 +15,44 @@
         <a href="#portfolio">Portfolio</a>
         <a href="#contact">Contact Me</a>
     </nav>
-    <div>
+    <div id="light">
         <h2>Highlights</h2>
-        <ul>
+        <ul class="para">
             <li>Advanced Project Management Experience</li>
             <li>CSS</li>
             <li>HTML</li>
             <li>Extensive eCommerce Experience</li>
         </ul>
     </div>
-    <div id="bio">
-        <h2>Bio</h2>
-        <p style="float:left">Write the bio here.</p>
-        <img style="float:right" src="Assets\images\selfie.jpg" alt="Selfie of Kayla">
-    </div>
-    <div id="portfolio">
-        <h2>Portfolio</h2>
-        <a href="https://kayhancock.github.io/CSS-CheatSheet/" target="_blank"><img class="port" id="right" src="Assets\images\CSS.png" alt="Screenshot of Website"></a>
-        <a href="https://kayhancock.github.io/01/" target="_blank"><img class="port" id="left" src="Assets\images\01-html-css-git-homework-demo.png" alt="Screenshot of Website"></a>
-    </div>
     <div id="contact">
-        <h2>Contact Me</h2>
-        <ul>
+        <h2>Hit me up</h2>
+        <ul class="para">
             <li><a href="mailto:hancock.kae@gmail.com" target="_blank">Email</a></li>
             <li><a href="https://www.linkedin.com/in/kc3kgq/" target="_blank">LinkedIn</a></li>
             <li><a href="https://github.com/KayHancock" target="_blank">GitHub</a></li>
         </ul>
+    </div>
+    <div id="bio">
+        <h2>Bio</h2>
+        <p class="para">I started my career in corporate america in the banking world before branching out into logistics. I've spent the past 5 years working for various 3PLs and have finally decided to branch out into the world of software development.</p>
+        <img id="selfie" src="Assets\images\selfie.jpg" alt="Selfie of Kayla">
+    </div>
+    <div>
+        <h2>Portfolio</h2>
+        <article id="portfolio">
+            <a href="https://kayhancock.github.io/CSS-CheatSheet/" target="_blank"><img class="port" src="Assets\images\CSS.png" alt="Screenshot of Website"></a>
+        </article>    
+        <article id="port">
+            <h4 class="title">CSS Cheat Sheet</h4>
+            <p class="para">This was a quick project to create a cheatsheet for CSS functions.</p>
+        </article>
+        <article id="portfolio" class="right">
+            <a href="https://kayhancock.github.io/01/" target="_blank" ><img class="port" src="Assets\images\01-html-css-git-homework-demo.png" alt="Screenshot of Website"></a>
+        </article>
+        <article id="port" >  
+            <h4 class="title">Horiseon</h4>
+            <p class="para">Horiseon came to me requesting some help with their SEO optimization. They also wanted to be sure their site was accessible to ADA standards.</p>
+        </article>
     </div>
     <footer>
         <h5>Copyright Cthulhu Technologies Inc. 2022</h5>
